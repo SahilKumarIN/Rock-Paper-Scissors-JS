@@ -39,39 +39,39 @@ function getBtnClk(id) {
     changeBorderColor(id);
   }
   if (userChoice == "r" && compChoice == "p") {
-    dispMsg = `${getChoice(compChoice)}<sub>(computer)</sub> beats ${getChoice(
+    dispMsg = `${getChoice(compChoice)}<sub>computer</sub> beats ${getChoice(
       userChoice
-    )}<sub>(user)</sub>!`;
+    )}<sub>user</sub>!`;
     compScore++;
     changeBorderColor(id, "error");
   } else if (userChoice == "r" && compChoice == "s") {
-    dispMsg = `${getChoice(userChoice)}<sub>(user)</sub> beats ${getChoice(
+    dispMsg = `${getChoice(userChoice)}<sub>user</sub> beats ${getChoice(
       compChoice
-    )}<sub>(computer)</sub>!`;
+    )}<sub>computer</sub>!`;
     userScore++;
     changeBorderColor(id, "success");
   } else if (userChoice == "p" && compChoice == "r") {
-    dispMsg = `${getChoice(userChoice)}<sub>(user)</sub> beats ${getChoice(
+    dispMsg = `${getChoice(userChoice)}<sub>user</sub> beats ${getChoice(
       compChoice
-    )}<sub>(computer)</sub>!`;
+    )}<sub>computer</sub>!`;
     userScore++;
     changeBorderColor(id, "success");
   } else if (userChoice == "p" && compChoice == "s") {
-    dispMsg = `${getChoice(compChoice)}<sub>(computer)</sub> beats ${getChoice(
+    dispMsg = `${getChoice(compChoice)}<sub>computer</sub> beats ${getChoice(
       userChoice
-    )}<sub>(user)</sub>!`;
+    )}<sub>user</sub>!`;
     compScore++;
     changeBorderColor(id, "error");
   } else if (userChoice == "s" && compChoice == "r") {
-    dispMsg = `${getChoice(compChoice)}<sub>(computer)</sub> beats ${getChoice(
+    dispMsg = `${getChoice(compChoice)}<sub>computer</sub> beats ${getChoice(
       userChoice
-    )}<sub>(user)</sub>!`;
+    )}<sub>user</sub>!`;
     compScore++;
     changeBorderColor(id, "error");
   } else if (userChoice == "s" && compChoice == "p") {
-    dispMsg = `${getChoice(userChoice)}<sub>(user)</sub> beats ${getChoice(
+    dispMsg = `${getChoice(userChoice)}<sub>user</sub> beats ${getChoice(
       compChoice
-    )}<sub>(computer)</sub>!`;
+    )}<sub>computer</sub>!`;
     userScore++;
     changeBorderColor(id, "success");
   }
