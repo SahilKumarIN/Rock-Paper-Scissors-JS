@@ -58,6 +58,12 @@ header > h1{
     font-weight: bold;
 }
 
+.colon{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
 .actionMessage{
     font-size: 25px;
     font-weight: bold;

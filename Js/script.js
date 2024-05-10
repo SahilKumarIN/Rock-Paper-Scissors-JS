@@ -31,7 +31,7 @@ function getBtnClk(id) {
   let btn = document.getElementById(id);
   let userChoice = id;
   let compChoiceNum = Math.floor(Math.random() * 3);
-  let compChoice = compChoiceNum == 0 ? "r" : compChoiceNum == 1 ? "p" : "s";
+  let compChoice = (compChoiceNum == 0) ? "r" : (compChoiceNum == 1) ? "p" : "s";
   if (userChoice == compChoice) {
     dispMsg = "It's a tie! Both gets one point.";
     userScore++;
